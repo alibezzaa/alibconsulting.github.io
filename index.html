@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALIB Consulting — Conseil, Formation, Études & Archivage</title>
+  <meta name="description" content="ALIB Consulting : formations sur mesure, études stratégiques, archivage et dématérialisation, conseil aux administrations publiques et collectivités territoriales. Marrakech, Maroc.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+<!-- ═══════════════════════ NAV ═══════════════════════════════ -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <img src="img/logo.png" alt="ALIB Consulting">
+    </a>
+    <div class="nav-links">
+      <a href="#home"     data-i18n="nav.home">Accueil</a>
+      <a href="#about"    data-i18n="nav.about">À Propos</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#blog"     data-i18n="nav.blog">Blog</a>
+      <a href="#contact"  data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">FR</button>
+        <button class="lang-btn"        data-lang="en">EN</button>
+        <button class="lang-btn"        data-lang="ar">AR</button>
+      </div>
+      <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Nous Contacter</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#home"     data-i18n="nav.home">Accueil</a>
+  <a href="#about"    data-i18n="nav.about">À Propos</a>
+  <a href="#services" data-i18n="nav.services">Services</a>
+  <a href="#blog"     data-i18n="nav.blog">Blog</a>
+  <a href="#contact"  data-i18n="nav.contact">Contact</a>
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-lang="fr">FR</button>
+    <button class="lang-btn"        data-lang="ar">AR</button>
+  </div>
+  <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Nous Contacter</a>
+</div>
+
+<main class="page-content">
+
+<!-- ═══════════════════════ HERO ══════════════════════════════ -->
+<section id="home">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-label" data-i18n="home.hero.label">Conseil · Formation · Études · Archivage</div>
+      <h1 class="hero-title" data-i18n="home.hero.title">
+        L'expertise au service des <em>administrations</em> et des entrepreneurs
+      </h1>
+      <p class="hero-sub" data-i18n="home.hero.sub">
+        ALIB Consulting accompagne administrations publiques, collectivités territoriales, entreprises privées et entrepreneurs avec des formations sur mesure, des études stratégiques, des conseils opérationnels et des solutions d'archivage et de dématérialisation.
+      </p>
+      <div class="btn-group hero-btns">
+        <a href="#services" class="btn btn-primary"       data-i18n="home.hero.btn1">Nos Services</a>
+        <a href="#contact"  class="btn btn-outline-white" data-i18n="home.hero.btn2">Nous Contacter</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num" data-i18n="home.stat1.num">15+</div>
+          <div class="hero-stat-label" data-i18n="home.stat1.label">Années d'expérience</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-i18n="home.stat2.num">10</div>
+          <div class="hero-stat-label" data-i18n="home.stat2.label">Ans en collectivités</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-i18n="home.stat3.num">4</div>
+          <div class="hero-stat-label" data-i18n="home.stat3.label">Domaines d'expertise</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ SERVICES PREVIEW ═════════════════════ -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header center reveal">
+      <span class="label-chip" data-i18n="home.services.label">Nos Services</span>
+      <h2 class="section-title" data-i18n="home.services.title">Une expertise pluridisciplinaire à votre service</h2>
+      <p class="section-sub" data-i18n="home.services.sub">De la formation sur mesure à la dématérialisation de vos archives, en passant par les études stratégiques et le conseil public.</p>
+    </div>
+    <div class="grid-2">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-icon">🎓</div>
+        <h3 data-i18n="home.srv1.title">Formations sur Mesure</h3>
+        <p data-i18n="home.srv1.desc">Programmes de formation personnalisés pour administrations publiques, secteur privé et entrepreneurs.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-icon">📊</div>
+        <h3 data-i18n="home.srv2.title">Études Stratégiques & Marché</h3>
+        <p data-i18n="home.srv2.desc">Études de marché, analyses concurrentielles, études de faisabilité et diagnostics stratégiques.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-icon">🗂️</div>
+        <h3 data-i18n="home.srv3.title">Archivage & Dématérialisation</h3>
+        <p data-i18n="home.srv3.desc">Organisation, numérisation et gestion électronique des archives, en phase avec la stratégie nationale 2030.</p>
+      </div>
+      <div class="service-card reveal reveal-delay-4">
+        <div class="service-icon">🏛️</div>
+        <h3 data-i18n="home.srv4.title">Conseil Administrations Publiques</h3>
+        <p data-i18n="home.srv4.desc">Accompagnement des collectivités territoriales et organismes publics : gouvernance, développement et conduite du changement.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;" class="reveal">
+      <a href="#services" class="btn btn-blue" data-i18n="nav.services">Voir tous nos services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ ABOUT ═════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Photo -->
+      <div class="about-img-wrap reveal">
+        <div class="about-photo-bg">
+          <img src="img/ali.png" alt="Ali Bezzaa — ALIB Consulting">
+        </div>
+        <div class="about-badge">
+          <div class="about-badge-num">10</div>
+          <div class="about-badge-text" data-i18n="home.stat2.label">Ans en collectivités</div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text">
+        <div class="reveal">
+          <span class="about-tag" data-i18n="about.tag">Fondateur &amp; Consultant Principal</span>
+          <h2 data-i18n="about.name">Ali Bezzaa</h2>
+        </div>
+        <p class="reveal reveal-delay-1" data-i18n="about.p1">
+          Professeur associé à l'Université Cadi Ayyad de Marrakech et fondateur d'ALIB Consulting, Ali Bezzaa est une figure rare qui allie rigueur académique et ancrage institutionnel profond. Fort de plus de 10 ans d'expérience au sein du Ministère de l'Intérieur en tant que cadre territorial, il maîtrise les complexités du terrain des collectivités territoriales marocaines et apporte des solutions qui mixent innovation pédagogique et expertise opérationnelle.
+        </p>
+        <p class="reveal reveal-delay-2" data-i18n="about.p2">
+          Titulaire d'un doctorat en Économie et Gestion (Université Hassan 1er), d'un Master en Management International (Université de Reutlingen, Allemagne) et d'une Licence en Administration des Affaires (Université Al Akhawayn), il enseigne aujourd'hui la stratégie d'entreprise et l'intelligence économique à l'université — une expertise qu'il met directement au service de ses clients.
+        </p>
+        <p class="reveal reveal-delay-3" data-i18n="about.p3">
+          Fondateur d'ALIB Consulting depuis 2021, il accompagne administrations publiques, collectivités territoriales, entreprises privées et entrepreneurs dans leurs formations sur mesure, leurs études stratégiques et de marché, leurs projets d'archivage et de dématérialisation, et leurs défis de gouvernance et de développement.
+        </p>
+      </div>
+    </div>
+
+    <!-- Mission -->
+    <div style="margin-top:80px;">
+      <div class="section-header center reveal">
+        <span class="label-chip" data-i18n="about.mission.label">Notre Raison d'être</span>
+        <h2 class="section-title" data-i18n="about.mission.title">Notre Mission</h2>
+        <p class="section-sub" data-i18n="about.mission.text">
+          Mettre l'expertise académique et l'expérience institutionnelle au service de la performance des organisations publiques et privées — par la formation, le conseil, les études et la transformation numérique.
+        </p>
+      </div>
+
+      <!-- Values -->
+      <div class="section-header center reveal" style="margin-top:48px;margin-bottom:28px;">
+        <span class="label-chip" data-i18n="about.values.label">Ce en quoi nous croyons</span>
+        <h2 class="section-title" data-i18n="about.values.title">Nos Valeurs</h2>
+      </div>
+      <div class="grid-3">
+        <div class="service-card reveal reveal-delay-1" style="text-align:center;">
+          <div class="service-icon" style="margin:0 auto 20px;">🎯</div>
+          <h3 data-i18n="about.v1.title">Rigueur</h3>
+          <p data-i18n="about.v1.desc">Des analyses fondées sur des données probantes et des méthodologies académiques éprouvées — pour des résultats fiables et solides.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-2" style="text-align:center;">
+          <div class="service-icon" style="margin:0 auto 20px;">🔍</div>
+          <h3 data-i18n="about.v2.title">Transparence</h3>
+          <p data-i18n="about.v2.desc">Une communication claire et honnête à chaque étape de la mission — vous savez toujours où nous en sommes.</p>
+        </div>
+        <div class="service-card reveal reveal-delay-3" style="text-align:center;">
+          <div class="service-icon" style="margin:0 auto 20px;">⭐</div>
+          <h3 data-i18n="about.v3.title">Satisfaction</h3>
+          <p data-i18n="about.v3.desc">Votre satisfaction est notre priorité absolue — chaque mission est terminée quand vous êtes pleinement satisfait.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ SERVICES ══════════════════════════ -->
+<section id="services" class="section section--alt">
+  <div class="container">
+    <div class="section-header center reveal">
+      <span class="label-chip" data-i18n="services.label">Ce que nous faisons</span>
+      <h2 class="section-title" data-i18n="services.title">Quatre domaines d'expertise, une seule vision</h2>
+      <p class="section-sub" data-i18n="services.sub">Du conseil aux collectivités territoriales à la formation sur mesure, en passant par les études stratégiques et la dématérialisation.</p>
+    </div>
+
+    <div class="grid-2">
+      <!-- Service 1 -->
+      <div class="service-card reveal reveal-delay-1" style="padding:36px;">
+        <div class="service-icon">🎓</div>
+        <h3 data-i18n="srv1.title">Formations sur Mesure</h3>
+        <p data-i18n="srv1.desc">Programmes de formation conçus et animés sur mesure pour administrations publiques, entreprises privées et entrepreneurs. Modules : management public, gestion de projet, stratégie, intelligence économique, développement territorial, finances locales et leadership.</p>
+        <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:7px;">
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Administrations</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Secteur privé</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Entrepreneurs</span>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card reveal reveal-delay-2" style="padding:36px;">
+        <div class="service-icon">📊</div>
+        <h3 data-i18n="srv2.title">Études de Marché &amp; Études Stratégiques</h3>
+        <p data-i18n="srv2.desc">Études de marché approfondies, analyses de la concurrence, études de faisabilité, diagnostics stratégiques et plans de développement. Une approche alliant méthodologie académique rigoureuse et connaissance du tissu économique local et régional.</p>
+        <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:7px;">
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Études de marché</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Faisabilité</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Intelligence éco.</span>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card reveal reveal-delay-3" style="padding:36px;">
+        <div class="service-icon">🗂️</div>
+        <h3 data-i18n="srv3.title">Archivage &amp; Dématérialisation</h3>
+        <p data-i18n="srv3.desc">Nouvelle prestation en phase avec la stratégie nationale de digitalisation 2030. Diagnostic et audit de vos fonds d'archives, organisation et classement physique, numérisation et mise en place d'un système de gestion électronique des documents (GED) pour administrations, collectivités et entreprises.</p>
+        <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:7px;">
+          <span class="badge" style="background:#FFF3E0;color:#F08C00;">Stratégie 2030</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">GED</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Numérisation</span>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="service-card reveal reveal-delay-4" style="padding:36px;">
+        <div class="service-icon">🏛️</div>
+        <h3 data-i18n="srv4.title">Conseil aux Administrations Publiques</h3>
+        <p data-i18n="srv4.desc">Accompagnement stratégique des collectivités territoriales et organismes publics : élaboration de plans de développement (PCD/PDC), programmes d'action, gouvernance locale, conduite du changement et renforcement des capacités. Fort d'une expérience de 10 ans au Ministère de l'Intérieur.</p>
+        <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:7px;">
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Collectivités</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">PCD / PDC</span>
+          <span class="badge" style="background:#EBF4FD;color:#1A78C2;">Gouvernance</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Process -->
+    <div style="margin-top:80px;">
+      <div class="section-header center reveal">
+        <span class="label-chip" data-i18n="services.process.label">Comment nous travaillons</span>
+        <h2 class="section-title" data-i18n="services.process.title">Notre Processus</h2>
+        <p class="section-sub" data-i18n="services.process.sub">Une démarche structurée et transparente, de la première rencontre à la livraison des résultats.</p>
+      </div>
+      <div class="process-grid reveal">
+        <div class="process-step">
+          <div class="step-num">1</div>
+          <h3 data-i18n="step1.title">Diagnostic</h3>
+          <p data-i18n="step1.desc">Analyse approfondie de votre situation, vos besoins et vos contraintes.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">2</div>
+          <h3 data-i18n="step2.title">Planification</h3>
+          <p data-i18n="step2.desc">Élaboration d'un plan d'action personnalisé, réaliste et mesurable.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">3</div>
+          <h3 data-i18n="step3.title">Exécution</h3>
+          <p data-i18n="step3.desc">Mise en œuvre accompagnée avec points d'étape et ajustements réguliers.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">4</div>
+          <h3 data-i18n="step4.title">Évaluation</h3>
+          <p data-i18n="step4.desc">Mesure des résultats, bilan et préconisations pour la suite.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ WHY US (dark) ════════════════════════ -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-header center reveal">
+      <span class="label-chip" data-i18n="home.why.label">Pourquoi nous choisir</span>
+      <h2 class="section-title" data-i18n="home.why.title">Terrain, académie et innovation — réunis</h2>
+      <p class="section-sub" style="margin-inline:auto;color:rgba(255,255,255,.65);" data-i18n="home.why.sub">Une combinaison rare : 10 ans dans les collectivités territoriales marocaines et une carrière académique active en stratégie et intelligence économique.</p>
+    </div>
+    <div class="grid-2">
+      <div class="pillar-card reveal reveal-delay-1">
+        <div class="pillar-icon">🏙️</div>
+        <div>
+          <h3 data-i18n="home.p1.title">Expertise Institutionnelle</h3>
+          <p data-i18n="home.p1.desc">10 ans au Ministère de l'Intérieur comme cadre territorial — une connaissance fine des rouages administratifs et des enjeux des collectivités.</p>
+        </div>
+      </div>
+      <div class="pillar-card reveal reveal-delay-2">
+        <div class="pillar-icon">🎓</div>
+        <div>
+          <h3 data-i18n="home.p2.title">Rigueur Académique</h3>
+          <p data-i18n="home.p2.desc">Docteur en Gestion, professeur en stratégie et intelligence économique à l'université — une méthodologie scientifique appliquée à vos défis concrets.</p>
+        </div>
+      </div>
+      <div class="pillar-card reveal reveal-delay-3">
+        <div class="pillar-icon">💡</div>
+        <div>
+          <h3 data-i18n="home.p3.title">Innovation Pédagogique</h3>
+          <p data-i18n="home.p3.desc">Des formations qui mixent les dernières approches pédagogiques et une expérience terrain unique pour un apprentissage ancré dans la réalité.</p>
+        </div>
+      </div>
+      <div class="pillar-card reveal reveal-delay-4">
+        <div class="pillar-icon">🎯</div>
+        <div>
+          <h3 data-i18n="home.p4.title">Accompagnement Sur-Mesure</h3>
+          <p data-i18n="home.p4.desc">Chaque mission est adaptée à votre contexte — public, privé ou entrepreneurial — pour des résultats concrets et mesurables.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ PHOTO STRIP ══════════════════════════ -->
+<div class="photo-strip">
+  <img class="photo-strip__img" src="img/training-session.png" alt="Session de formation ALIB Consulting">
+  <div class="photo-strip__overlay">
+    <div class="photo-strip__label" data-i18n="strip.label">Sur le terrain</div>
+    <h2 class="photo-strip__title" data-i18n="strip.title">Des formations qui rassemblent et transforment</h2>
+    <p class="photo-strip__sub" data-i18n="strip.sub">Séances animées auprès de collectivités territoriales, administrations publiques et acteurs du développement local.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;">
+      <div class="photo-strip__stat">
+        <span class="photo-strip__stat-num">100+</span>
+        <span class="photo-strip__stat-text" data-i18n="strip.stat1">Participants par session</span>
+      </div>
+      <div class="photo-strip__stat">
+        <span class="photo-strip__stat-num">10</span>
+        <span class="photo-strip__stat-text" data-i18n="strip.stat2">Ans de formations terrain</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════ BLOG ══════════════════════════════ -->
+<section id="blog" class="section">
+  <div class="container">
+    <div class="section-header center reveal">
+      <span class="label-chip" data-i18n="blog.label">Insights &amp; Veille</span>
+      <h2 class="section-title" data-i18n="blog.title">Articles pour décideurs et entrepreneurs</h2>
+      <p class="section-sub" data-i18n="blog.sub">Analyses, bonnes pratiques et retours d'expérience sur la gestion publique, la stratégie et l'entrepreneuriat.</p>
+    </div>
+    <div class="blog-grid" id="blog-grid">
+      <p class="blog-loading" data-i18n="blog.loading">Chargement des articles…</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ CTA BANNER ════════════════════════ -->
+<section class="cta-banner">
+  <div class="container">
+    <h2 data-i18n="home.cta.title">Prêt à transformer votre organisation ?</h2>
+    <p data-i18n="home.cta.sub">Prenez rendez-vous pour une première consultation gratuite.</p>
+    <div class="btn-group" style="justify-content:center;">
+      <a href="#contact" class="btn btn-primary"       data-i18n="home.cta.btn1">Prendre Rendez-vous</a>
+      <a href="#services" class="btn btn-outline-white" data-i18n="home.cta.btn2">Voir nos Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ CONTACT ═══════════════════════════ -->
+<section id="contact" class="section section--alt">
+  <div class="container">
+    <div class="section-header center reveal">
+      <span class="label-chip" data-i18n="nav.contact">Contact</span>
+      <h2 class="section-title" data-i18n="contact.hero.title">Contactez-Nous</h2>
+    </div>
+    <div class="contact-grid">
+
+      <div class="contact-form-card reveal">
+        <h3 data-i18n="contact.form.title">Envoyez-nous un message</h3>
+        <form onsubmit="return false;">
+          <div class="form-group">
+            <label data-i18n="contact.name">Votre nom complet</label>
+            <input type="text" data-i18n-ph="contact.name.ph" placeholder="Ex : Mohamed Alami">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.email">Adresse email</label>
+            <input type="email" data-i18n-ph="contact.email.ph" placeholder="votre@email.com">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.subject">Sujet</label>
+            <input type="text" data-i18n-ph="contact.subject.ph" placeholder="Ex : Demande de formation sur mesure">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.message">Votre message</label>
+            <textarea data-i18n-ph="contact.message.ph" placeholder="Décrivez votre besoin ou votre projet…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;" data-i18n="contact.send">
+            Envoyer le message
+          </button>
+          <p class="form-note" data-i18n="contact.note">
+            📬 Ce formulaire est purement visuel. Pour l'activer, connectez-le à Formspree.io ou Netlify Forms.
+          </p>
+        </form>
+      </div>
+
+      <div class="contact-info-card reveal reveal-delay-2">
+        <h3 data-i18n="contact.info.title">Nos Coordonnées</h3>
+        <div class="contact-item">
+          <div class="contact-item-icon">✉️</div>
+          <div class="contact-item-text">
+            <div class="ci-label" data-i18n="contact.email.label">Email</div>
+            <div class="ci-val"><a href="mailto:alibconseil@gmail.com">alibconseil@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📱</div>
+          <div class="contact-item-text">
+            <div class="ci-label" data-i18n="contact.phone.label">Téléphone</div>
+            <div class="ci-val"><a href="tel:+212661102093">+212 661 102 093</a></div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <div class="ci-label" data-i18n="contact.city.label">Localisation</div>
+            <div class="ci-val">Marrakech, Maroc</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">🌐</div>
+          <div class="contact-item-text">
+            <div class="ci-label" data-i18n="contact.web.label">Site Web</div>
+            <div class="ci-val"><a href="https://alibconsulting.com" target="_blank">alibconsulting.com</a></div>
+          </div>
+        </div>
+        <div style="margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);">
+          <div class="ci-label" style="color:rgba(255,255,255,.5);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px;" data-i18n="contact.hours.title">Disponibilité</div>
+          <div style="color:rgba(255,255,255,.75);font-size:.92rem;line-height:1.8;" data-i18n="contact.hours.text">
+            Lun – Ven : 9h00 – 18h00<br>Disponible à distance (Maroc, France, Afrique)
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/alib-consulting/" target="_blank" rel="noopener" class="social-btn linkedin" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://web.facebook.com/alibconsulting" target="_blank" rel="noopener" class="social-btn facebook" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/alib_consulting" target="_blank" rel="noopener" class="social-btn instagram" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════ FOOTER ════════════════════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="img/logo.png" alt="ALIB Consulting" style="height:36px;filter:brightness(0) invert(1);opacity:.8;">
+        <p class="footer-desc" data-i18n="footer.desc">
+          Conseil, formation, études stratégiques et archivage pour administrations publiques, collectivités territoriales, entreprises et entrepreneurs. Basé à Marrakech.
+        </p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/company/alib-consulting/" target="_blank" rel="noopener" class="social-btn linkedin" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://web.facebook.com/alibconsulting" target="_blank" rel="noopener" class="social-btn facebook" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/alib_consulting" target="_blank" rel="noopener" class="social-btn instagram" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.pages">Pages</h4>
+        <ul>
+          <li><a href="#home"     data-i18n="nav.home">Accueil</a></li>
+          <li><a href="#about"    data-i18n="nav.about">À Propos</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#blog"     data-i18n="nav.blog">Blog</a></li>
+          <li><a href="#contact"  data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.services">Services</h4>
+        <ul>
+          <li><a href="#services" data-i18n="srv1.title">Formations sur Mesure</a></li>
+          <li><a href="#services" data-i18n="srv2.title">Études Stratégiques</a></li>
+          <li><a href="#services" data-i18n="srv3.title">Archivage &amp; GED</a></li>
+          <li><a href="#services" data-i18n="srv4.title">Conseil Public</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <ul>
+          <li><a href="mailto:alibconseil@gmail.com">alibconseil@gmail.com</a></li>
+          <li><a href="tel:+212661102093">+212 661 102 093</a></li>
+          <li><a href="#contact">Marrakech, Maroc</a></li>
+          <li><a href="https://alibconsulting.com" target="_blank">alibconsulting.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year"></span> ALIB Consulting. <span data-i18n="footer.rights">Tous droits réservés.</span></span>
+      <span data-i18n="footer.tagline">Expertise · Innovation · Résultats</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/blog.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => loadPosts('blog-grid'));
+  document.addEventListener('click', e => {
+    if (e.target.closest('.lang-btn')) setTimeout(() => loadPosts('blog-grid'), 60);
+  });
+</script>
+</body>
+</html>

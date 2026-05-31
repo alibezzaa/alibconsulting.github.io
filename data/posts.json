@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "date": "2026-05-25",
+    "category_fr": "Collectivités",
+    "category_ar": "الجماعات الترابية",
+    "title_fr": "Plans de développement communaux : les 5 erreurs à éviter",
+    "title_ar": "مخططات التنمية الجماعية: 5 أخطاء ينبغي تجنبها",
+    "excerpt_fr": "La réussite d'un PCD repose autant sur la méthode que sur la mobilisation des acteurs. Voici les cinq pièges les plus fréquents observés sur le terrain lors de l'élaboration et du suivi des plans de développement communaux.",
+    "excerpt_ar": "نجاح مخطط التنمية الجماعية يتوقف على المنهجية والتعبئة معًا. إليكم الأخطاء الخمسة الأكثر شيوعًا لاحظناها ميدانيًا في إعداد ومتابعة المخططات.",
+    "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80&fit=crop"
+  },
+  {
+    "id": 2,
+    "date": "2026-05-12",
+    "category_fr": "Formation",
+    "category_ar": "التكوين",
+    "title_fr": "Ingénierie de formation : comment concevoir un programme qui change vraiment les pratiques",
+    "title_ar": "هندسة التكوين: كيف تُصمم برنامجًا يُغير الممارسات فعلًا",
+    "excerpt_fr": "Trop de formations se terminent sans impact durable. L'ingénierie de formation, alliée à l'andragogie et à l'ancrage terrain, est la clé pour que les apprenants changent réellement de pratiques après la salle.",
+    "excerpt_ar": "كثير من برامج التكوين تنتهي دون أثر حقيقي. هندسة التكوين المرتكزة على علم تعليم الكبار والواقع الميداني هي المفتاح لتغيير ممارسات المتعلمين فعلًا بعد القاعة.",
+    "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80&fit=crop"
+  },
+  {
+    "id": 3,
+    "date": "2026-04-28",
+    "category_fr": "Dématérialisation",
+    "category_ar": "الرقمنة",
+    "title_fr": "Stratégie nationale de digitalisation 2030 : ce que cela implique pour les administrations",
+    "title_ar": "الاستراتيجية الوطنية للتحول الرقمي 2030: ما الذي يعنيه ذلك للإدارات",
+    "excerpt_fr": "La stratégie Maroc Digital 2030 impose une transformation profonde des pratiques administratives. Archivage, GED, dématérialisation des procédures — voici les étapes concrètes pour y répondre.",
+    "excerpt_ar": "تفرض استراتيجية المغرب الرقمي 2030 تحولًا جذريًا في الممارسات الإدارية. الأرشفة والتدبير الإلكتروني للوثائق ورقمنة المساطر — إليكم الخطوات الملموسة للاستجابة لها.",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80&fit=crop"
+  },
+  {
+    "id": 4,
+    "date": "2026-04-10",
+    "category_fr": "Stratégie",
+    "category_ar": "الاستراتيجية",
+    "title_fr": "Intelligence économique : un outil encore sous-exploité par les PME marocaines",
+    "title_ar": "الذكاء الاقتصادي: أداة لا تزال مُهملة لدى المؤسسات الصغيرة والمتوسطة المغربية",
+    "excerpt_fr": "L'intelligence économique ne se limite pas aux grandes entreprises. Veille concurrentielle, protection de l'information, influence — comment les PME peuvent s'approprier ces outils stratégiques.",
+    "excerpt_ar": "الذكاء الاقتصادي لا يقتصر على الشركات الكبرى. اليقظة التنافسية وحماية المعلومات والتأثير — كيف يمكن للمؤسسات الصغيرة والمتوسطة الاستفادة من هذه الأدوات الاستراتيجية.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&fit=crop"
+  },
+  {
+    "id": 5,
+    "date": "2026-03-22",
+    "category_fr": "Gouvernance",
+    "category_ar": "الحوكمة",
+    "title_fr": "Décentralisation au Maroc : enjeux et opportunités pour les collectivités territoriales",
+    "title_ar": "اللامركزية بالمغرب: رهانات وفرص للجماعات الترابية",
+    "excerpt_fr": "La réforme de la régionalisation avancée ouvre des possibilités inédites pour les collectivités. Mais elle impose aussi de nouvelles compétences, une meilleure planification et un renforcement des capacités locales.",
+    "excerpt_ar": "إصلاح الجهوية المتقدمة يفتح آفاقًا غير مسبوقة للجماعات الترابية، لكنه يفرض في الوقت ذاته كفاءات جديدة وتخطيطًا أفضل وتعزيزًا للقدرات المحلية.",
+    "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&q=80&fit=crop"
+  },
+  {
+    "id": 6,
+    "date": "2026-03-05",
+    "category_fr": "Entrepreneuriat",
+    "category_ar": "ريادة الأعمال",
+    "title_fr": "Étude de marché : la méthode en 6 étapes pour les entrepreneurs marocains",
+    "title_ar": "دراسة السوق: المنهجية في 6 خطوات لرواد الأعمال المغاربة",
+    "excerpt_fr": "Une étude de marché rigoureuse n'a pas besoin d'un grand budget. Voici la méthode exacte utilisée avec nos clients pour comprendre leur marché, identifier leurs segments cibles et valider leur modèle économique.",
+    "excerpt_ar": "دراسة السوق الرصينة لا تحتاج إلى ميزانية ضخمة. إليكم المنهجية التي نستخدمها بالضبط مع عملائنا لفهم السوق وتحديد الشرائح المستهدفة والتحقق من النموذج الاقتصادي.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&fit=crop"
+  }
+]
